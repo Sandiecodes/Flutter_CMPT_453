@@ -10,7 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-HOST = "0.0.0.0"
+HOST = "127.0.0.1"
 PORT = 3001
 
 # JSON file stored in the same directory as app.py
