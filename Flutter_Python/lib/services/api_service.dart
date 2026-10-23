@@ -19,7 +19,7 @@ String getBaseHost() {
   }
 
   // Use your computer's IP for physical devices.
-  return '192.168.1.10';
+  //return '';
 }
 
 final String baseUrl = 'http://${getBaseHost()}:3001';
