@@ -19,7 +19,7 @@ String getBaseHost() {
   }
 
   // Use your computer's IP for physical devices.
-  //return '';
+  throw UnsupportedError('Unsupported platform');
 }
 
 final String baseUrl = 'http://${getBaseHost()}:3001';
